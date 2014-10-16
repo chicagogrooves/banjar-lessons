@@ -1,3 +1,8 @@
 {
-    "one": ["two", "three"]
+    "one-finger-1": [],
+    "one-finger-2": ["one-finger-1"],
+    "one-finger-3": ["one-finger-2"],
+    "minor-chords": ["one-finger-3"],
+    "d7-chord": ["one-finger-1"],
+    "cowboy-chords": ["d7-chord"]
 }
