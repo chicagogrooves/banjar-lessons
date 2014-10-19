@@ -1,5 +1,5 @@
 {
-    "name": "Hemingway",
+    "name": "Banjar Lessons",
     "version": "0.0.2",
     "dependencies": {},
     "devDependencies": {
@@ -13,7 +13,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "http://github.com/opinionlab/ucc-nextgen.git"
+        "url": "http://github.com/chicagogrooves/banjar-lessons.git"
     },
     "scripts": {
         "start": "./node_modules/http-server/bin/http-server app/ -p 3399",
