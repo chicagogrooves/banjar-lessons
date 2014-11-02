@@ -1,0 +1,10 @@
+{
+    "added": ["one-finger-1-first-song"],
+    "parentChanged": [
+        "picking-style-intro",
+        "d7-chord",
+        "minor-chords-open",
+        "one-finger-order",
+        "one-finger-transposition"],
+    "childrenChanged": []
+}

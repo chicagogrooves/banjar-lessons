@@ -19,7 +19,7 @@
         "start": "./node_modules/http-server/bin/http-server app/ -p 3399",
         "build": "grunt requirejs && cat build/hemingway.js | pbcopy",
         "test": "grunt jshint && echo 'Tests pass'",
-        "doc": "./node_modules/dependito/bin/dependito -f json -d moduleDeps.json app/js > doc/require.html"
+        "doc": "./node_modules/dependito/bin/dependito -v -f json -r graph-colors.json -d moduleDeps.json app/js > doc/require.html"
     },
     "engines": {
         "node": ">=0.10.0"

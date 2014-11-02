@@ -1,7 +1,7 @@
 {
     "one-finger-1-first-song": [],
-    "one-finger-2.1-transposition": ["one-finger-1-first-song"],
-    "one-finger-2.2-order": ["one-finger-1-first-song"],
+    "one-finger-transposition": ["one-finger-1-first-song"],
+    "one-finger-order": ["one-finger-1-first-song"],
     "minor-chords-open": ["one-finger-1-first-song"],
     "minor-major-open": ["minor-chords-open"],
     "d7-chord": ["one-finger-1-first-song"],
