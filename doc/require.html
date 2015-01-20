@@ -112,10 +112,37 @@
     fill: #ff9;
   }
 
+  .stats {
+    position: absolute;
+    right: 0px;
+    border: 1px solid steelblue;
+    width: 120px;
+    height: 120px;
+    z-index: 100;
+    opacity: 90%;
+  }
+  .chart div {
+    font: 10px sans-serif;
+    background-color: steelblue;
+    text-align: right;
+    padding: 3px;
+    margin: 1px;
+    color: white;
+
+    position:relative;
+  }
+  .graph1 {
+    -webkit-transform: rotate(-90deg) translate(-15px, -15px);
+  }
+
     </style>
   </head>
 
   <body>
+    <div class="stats" style="display:none">
+      <div class="chart graph1">
+      </div>
+    </div>
     <div class="graph">
       <div class="control-zoom">
           <a class="control-zoom-in" href="#" title="Zoom in"></a>
@@ -445,6 +472,9 @@ showUpdates = function(){
 showUpdates();
 
     </script>
-
+    <script>
+      var statsData1 = [5,4,2,2,1,1,1,1,1,1,1,1,1];
+      /* code to show stats from statsData var */
+    </script>
   </body>
 </html>
